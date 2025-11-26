@@ -445,9 +445,9 @@ event SwapExecuted(
 
 | Risk | Severity | Mitigation |
 |------|----------|-----------|
-| **Reentrancy** | Critical | State lock mechanism |
+| **Reentrancy** | High | State lock mechanism |
 | **Flash Loan** | High | TWAP oracle validation |
-| **Bad Token** | High | Blacklist + fee detection |
+| **Bad Token** | Medium | Blacklist + fee detection |
 | **Bad Venue** | Medium | Health monitoring + failover |
 | **User Error** | Low | Clear pricing display |
 
@@ -460,10 +460,7 @@ event SwapExecuted(
 - Continuous monitoring for vulnerabilities
 - Transparent disclosure of findings
 
-### Bug Bounty Program
-- Incentivizes security researchers
-- Fast-track fix for reported vulnerabilities
-- Recognition for researchers
+
 
 ### Upgrade Path
 - Smart contract proxy patterns (if needed)
